@@ -1,0 +1,15 @@
+import React from 'react'
+import ChatList from "./chatList/chatList"
+import "./List.css"
+import Userinfo from "./userinfo/Userinfo"
+
+const List = () => {
+  return (
+    <div className="list">
+      <Userinfo/>
+      <ChatList/>
+    </div>
+  )
+}
+
+export default List
